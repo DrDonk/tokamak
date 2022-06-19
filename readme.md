@@ -12,3 +12,5 @@ scripts, code and stuff I have found useful over the years.
 There is a known problem in VMware Fusion 12, where it is not possible to boot to Recovery Mode. 
 The OpenCore boot loader is capable of booting to Recovery mode which means settings such as those for SIP
 can be altered.
+
+[TODO: Add link to wiki page]
