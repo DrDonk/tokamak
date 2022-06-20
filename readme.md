@@ -8,9 +8,15 @@ the name for a new project with utilities and hints for VMware Fusion. The proje
 scripts, code and stuff I have found useful over the years.
 
 ## Sub-projects
-### OpenCore Boot disk
+### OpenCore Boot Disk
 There is a known problem in VMware Fusion 12, where it is not possible to boot to Recovery Mode. 
 The OpenCore boot loader is capable of booting to Recovery mode which means settings such as those for SIP
 can be altered.
 
-[TODO: Add link to wiki page]
+### EFI CSR Utilities
+This is an alternative to OpenCore boot disk and uses EFI shell scripts to load EFI variables from setvar DMP files.
+
+### Create macOS Installer
+An independent from VMware Fusion shell script to create a bootable VMDK from an Apple macOS Installer application. 
+
+[TODO: Add links to wiki page]
