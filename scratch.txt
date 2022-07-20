@@ -1,0 +1,13 @@
+def parse_file(filepath):
+    output = dict()
+    with open(filepath, 'rb') as f:
+        line = f.readline().decode('utf-8').strip().rstrip('\n')
+        while line:
+            # print(line)
+            if line[0:1] != '#':
+                parts = line.split('=')
+                key = parts[0].strip().lower()
+                value = parts[1].strip().lstrip('"').rstrip('"')
+                output[key] = value
+            line = f.readline().decode('utf-8').strip().rstrip('\n')
+    return output
